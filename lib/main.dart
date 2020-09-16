@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
         children: [
           FadeInImage(
             image: NetworkImage(talk.picture),
-            placeholder: AssetImage('assets/applaudo_placeholder.gif'),
+            placeholder: AssetImage('assets/applaudo_placeholder.jpg'),
           ),
           Padding(
             padding: EdgeInsets.only(
@@ -91,8 +91,9 @@ class HomePage extends StatelessWidget {
                       Text(
                         talk.orator.name,
                         style: TextStyle(
-                            fontStyle: FontStyle.italic,
-                            color: Color.fromARGB(100, 0, 0, 0)),
+                          fontStyle: FontStyle.italic,
+                          color: Color.fromARGB(100, 0, 0, 0),
+                        ),
                       ),
                       SizedBox(height: 10.0),
                       Text(talk.description),
