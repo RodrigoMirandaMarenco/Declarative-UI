@@ -116,5 +116,5 @@ fun CustomSpacer() {
 @Preview
 @Composable
 fun PreviewTalkItem() {
-    TalkItem(talk = Talk.dummyTalks().first())
+    ItemCard(talk = Talk.dummyTalks().first())
 }
