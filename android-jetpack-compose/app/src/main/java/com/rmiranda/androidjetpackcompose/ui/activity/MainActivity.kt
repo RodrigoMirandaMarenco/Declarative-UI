@@ -1,4 +1,4 @@
-package com.rmiranda.androidjetpackcompose
+package com.rmiranda.androidjetpackcompose.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.setContent
 import androidx.ui.tooling.preview.Preview
-import com.rmiranda.androidjetpackcompose.ui.AndroidJetpackComposeTheme
+import com.rmiranda.androidjetpackcompose.ui.util.AndroidJetpackComposeTheme
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

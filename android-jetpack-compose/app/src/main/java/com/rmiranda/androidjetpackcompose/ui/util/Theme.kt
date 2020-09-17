@@ -1,4 +1,4 @@
-package com.rmiranda.androidjetpackcompose.ui
+package com.rmiranda.androidjetpackcompose.ui.util
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme

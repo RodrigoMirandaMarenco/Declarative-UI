@@ -1,4 +1,4 @@
-package com.rmiranda.androidjetpackcompose.ui
+package com.rmiranda.androidjetpackcompose.ui.util
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
