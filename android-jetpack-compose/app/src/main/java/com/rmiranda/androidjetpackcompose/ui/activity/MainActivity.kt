@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.setContent
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.ui.tooling.preview.Preview
 import com.rmiranda.androidjetpackcompose.R
 import com.rmiranda.androidjetpackcompose.data.model.Talk
 import com.rmiranda.androidjetpackcompose.ui.util.AndroidJetpackComposeTheme
@@ -68,4 +69,10 @@ fun TalkItem(talk: Talk) {
             )
         }
     }
+}
+
+@Preview
+@Composable
+fun PreviewTalkItem() {
+    TalkItem(talk = Talk.dummyTalks().first())
 }
